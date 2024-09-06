@@ -10,9 +10,11 @@ function App() {
   return (
     <div className="container">
       {/*Ternary Operator*/}
-      {isLoggedIn ? <h1>Hello</h1> : <Login />}
+      {isLoggedIn ? <h1>HELLO </h1> : <Login />}
       {/*AND Operator*/}
-      {currentTime > 12 && <h1>Why are you still working?</h1>}
+      {currentTime > 12 && (
+        <h1> why are intrested and Why are you still working ?</h1>
+      )}
     </div>
   );
 }
