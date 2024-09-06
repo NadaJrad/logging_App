@@ -1,7 +1,7 @@
 import React from "react";
 import Login from "./Login";
 
-var isLoggedIn = false;
+var isLoggedIn = true;
 
 const currentTime = new Date(2019, 11, 1, 9).getHours();
 console.log(currentTime);
